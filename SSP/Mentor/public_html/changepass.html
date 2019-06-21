@@ -1,0 +1,23 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div id="loginpage">
+	<div id="content">
+		<div id="logo">
+			<img src="/images/logo.png">
+		</div>
+		<div id="loginform">
+			<p>To change your password, type your username, your current password, and then type your new password.</p>
+			<form class="login" action="changepass.php" method="post">
+				<label for="username">Username:</label><input type="text" name="username" placeholder="Enter your username"><br>
+				<label for="current">Current Password:</label><input type="text" name="current" placeholder="Enter your current password"><br>
+				<label for="newpass">New Password:</label><input type="text" name="newpass" placeholder="Enter your new password"><br>
+				<input type="submit" value="Change My Password">
+			</form>
+		</div>
+	</div>
+</div>
+</body>
+</html>
